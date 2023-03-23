@@ -38,7 +38,9 @@ const Products = () => {
     };
 
     if (postsQuery.isError) return <Alert severity="error">{postsQuery.error}</Alert>;
-    if (postsQuery.isLoading) return <CircularProgress />;
+    if (postsQuery.isLoading) {
+        return (<Box sx={{ display: 'flex', justifyContent: 'center' }}><CircularProgress /></Box>)
+    }
 
     return (
         <Card sx={{ display: "flex", flexDirection: "column", gap: "10px", p: "10px", borderRadius: "10px", border: "1px solid #EAECF0" }}>
