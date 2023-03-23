@@ -1,13 +1,15 @@
 
-**Rayda Mock**
+*Rayda Mock*
 This a React Project build in React.It uses react query to fetch data and material ui
 
 ![Rayda](rayda.png)
 
-#Installation
+*Installation
+
 To install this project, make sure you have Node.js and npm installed on your machine. Then, follow these steps:
 
 1.Clone the repository:
+
 `git clone https://github.com/luchetu/Rayda.git`
 
 2.Navigate to the project directory:
@@ -16,9 +18,11 @@ To install this project, make sure you have Node.js and npm installed on your ma
 
 4.Usage
 To run the project, use the following command:
+
 `npm start`
 
-**Contributing**
+*Contributing*
+
 If you'd like to contribute to this project, please follow these steps:
 
 1.Fork the repository
